@@ -1,6 +1,8 @@
 <html>
 <head>
-<title>Pocetna strana</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Pocetna strana</title>
 </head>
 <h1>INDEX</h1>
 <body>

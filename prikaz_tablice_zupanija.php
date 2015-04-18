@@ -1,7 +1,9 @@
 <html>
 <body>
 <head>
-<title>Prikaz Zupanija</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Prikaz Zupanija</title>
 <h1>PRIKAZ ŽUPANIJA<h1>
 </head>
 <?php
@@ -10,7 +12,7 @@ include("includes/db.php");
 
 // upiti
 
-$sql="SELECT * FROM zupanija";
+$sql="SELECT * FROM Zupanija";
 $result=mysql_query($sql);
 if(!$result){
 echo "SQL upit($sql) nije uspjesno izvrsen: ".mysql_error();

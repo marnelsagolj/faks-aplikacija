@@ -8,7 +8,7 @@ include("includes/db.php");
 
 $sifra=$_POST['idZupanija'];
 $naziv=$_POST['Naziv'];
-$sql="INSERT INTO zupanija(idZupanija,Naziv) VALUES('$sifra','$naziv')";
+$sql="INSERT INTO Zupanija(idZupanija,Naziv) VALUES('$sifra','$naziv')";
 if(!mysql_query($sql,$conn)){
 	die('Greska: '.mysql_error());
 	}
